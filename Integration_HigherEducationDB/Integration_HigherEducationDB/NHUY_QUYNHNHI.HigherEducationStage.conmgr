@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="NHUY_QUYNHNHI.HigherEducationStage"
+  DTS:DTSID="{D4C2B93F-80A3-4DC8-8431-FC22951CEF71}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=NHUY\QUYNHNHI;Initial Catalog=HigherEducationStage;Provider=SQLNCLI11.1;Integrated Security=SSPI;Application Name=SSIS-Integration_HigherEducationDB-{D4C2B93F-80A3-4DC8-8431-FC22951CEF71}NHUY\QUYNHNHI.HigherEducationStage;Auto Translate=False;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
